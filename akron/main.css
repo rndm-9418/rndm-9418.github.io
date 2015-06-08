@@ -1,5 +1,5 @@
 body{
-background-image:url(img/new-pattern.jpg);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8034990/fd3ff44a-0dfd-11e5-9a59-0b96fa23ed21.jpg);
 margin-top:0px;
 margin-bottom:0px;
 }
@@ -14,7 +14,7 @@ position:relative;
 .flag{
 position:absolute;
 right:10px;
-background-image:url(img/new-flag.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8034988/fd3ee42e-0dfd-11e5-8ef0-1bf287c2ced4.png);
 background-repeat:no-repeat;
 height:284px;
 width:129px;
@@ -160,7 +160,7 @@ text-decoration:underline;
 
 /*FIRST BLOCK*/
 .content-first-block{
-background-image:url(img/metal.jpg);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8034987/fcbea192-0dfd-11e5-961a-19b1d564f552.jpg);
 background-repeat:no-repeat;
 background-position:418px 0;
 height:277px;
@@ -341,14 +341,14 @@ text-decoration:underline;
 }
 
 .third-col-block-one{
-background-image:url(img/gost-icon.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8034985/fcbc8ff6-0dfd-11e5-9dc3-b493d0a83793.png);
 background-repeat:no-repeat;
 background-position:12px 10px; 
 padding-top:23px;
 }
 
 .third-col-block-two{
-background-image:url(img/price-icon.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8034989/fd3f5972-0dfd-11e5-846d-c3719c8424c4.png);
 background-repeat:no-repeat;
 background-position:12px 10px; 
 padding-top:15px;
