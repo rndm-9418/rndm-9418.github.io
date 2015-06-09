@@ -55,7 +55,7 @@ body{
 /*PICTURE*/
 .block-picture{
 	padding: 250px 0;
-	background-image: url("../img/picture/sea.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066061/8ec8cae2-0ef6-11e5-85ed-bd5b973ac221.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -509,7 +509,7 @@ body{
 }
 
 .block-exp__icon--ibm{
-	background-image: url("../img/icons/icon-ibm.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066166/162874ec-0ef7-11e5-96d9-a2946b0fe36f.png");
 }
 
 .block-exp__fb-amz{
@@ -531,15 +531,15 @@ body{
 }
 
 .block-exp__icon--fb{
-	background-image: url("../img/icons/icon-facebook.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066159/1510fba6-0ef7-11e5-94a9-3bf68f44f67b.png");
 }
 
 .block-exp__icon--amz{
-	background-image: url("../img/icons/icon-amazon.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066162/162546dc-0ef7-11e5-85b7-a179c1f659e2.png");
 }
 
 .block-exp__icon--apple{
-	background-image: url("../img/icons/icon-apple.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066155/150d4560-0ef7-11e5-9d36-4a8eebde58f3.png");
 }
 
 .block-exp__description-wrapper{
@@ -643,7 +643,7 @@ body{
 .block-contact__data--name{
 	width: 49%;
 	float: left;
-	background-image: url("../img/icons/icon-name.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066163/16276606-0ef7-11e5-9cc9-ad496b63d731.png");
 	background-repeat: no-repeat;
 	background-position: 5% center;
 }
@@ -651,7 +651,7 @@ body{
 .block-contact__data--mail{
 	width: 49%;
 	float: right;
-	background-image: url("../img/icons/icon-mail.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066165/1628543a-0ef7-11e5-9701-8136a6582a01.png");
 	background-repeat: no-repeat;
 	background-position: 5% center;
 }
@@ -661,7 +661,7 @@ body{
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	background-image: url("../img/icons/icon-arrow-down.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066156/150da6ea-0ef7-11e5-9ec7-11cde48f373d.png");
 	background-repeat: no-repeat;
 	background-position: 95% center;
 	background-color: #fff;
@@ -733,29 +733,29 @@ body{
 }
 
 .block-contact__icon--fb{
-	background-image: url("../img/icons/icon-fb-round.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066157/150f2f56-0ef7-11e5-988d-cc52837e4fdb.png");
 }
 
 .block-contact__icon--twitter{
-	background-image: url("../img/icons/icon-twitter.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066167/16493d80-0ef7-11e5-870b-6ab11c7c742d.png");
 }
 
 .block-contact__icon--linkedin{
-	background-image: url("../img/icons/icon-linkedin.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066164/1627940a-0ef7-11e5-8062-353a1bea8a5d.png");
 }
 
 .block-contact__icon--google{
-	background-image: url("../img/icons/icon-google.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066161/1624fb78-0ef7-11e5-9444-e6db4e83c116.png");
 }
 
 .block-contact__icon--rss{
-	background-image: url("../img/icons/icon-rss.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066168/16496148-0ef7-11e5-8842-b11c3f4d7f7f.png");
 }
 /*BLOCK-CONTACT*/
 
 /*BLOCK-MAP*/
 .block-map{
-	background-image: url("../img/picture/bg-blue.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/8066060/8ec3f27e-0ef6-11e5-975e-987c0b828181.png");
 	height: 346px;
 	background-repeat: no-repeat;
 	background-position: center top;
