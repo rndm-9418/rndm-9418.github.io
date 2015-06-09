@@ -20,13 +20,13 @@ src:url(fonts/Intro.otf)
 
 .first-block{
 background-color:#f6c996;
-background-image:url(img/clock-pattern-small.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053946/00983780-0ea6-11e5-8fc5-87059f511f50.png);
 }
 
 .wrapper{
 width:1290px;
 margin:0 auto;
-background-image:url(img/robot2.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053958/021abc22-0ea6-11e5-8dc0-c4a23a299f8c.png);
 background-repeat:no-repeat;
 background-position:340px bottom;
 height:436px;
@@ -212,25 +212,25 @@ margin:0;
 }
 
 .col-one{
-background-image:url(img/pencil.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053950/01f3fc72-0ea6-11e5-8252-9fb33dde66a6.png);
 background-repeat:no-repeat;
 background-position:top center;
 }
 
 .col-two{
-background-image:url(img/print.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053953/0216fcd6-0ea6-11e5-9d88-ac542e49d0d1.png);
 background-repeat:no-repeat;
 background-position:center 10px;
 }
 
 .col-three{
-background-image:url(img/copybook.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053942/0096dc64-0ea6-11e5-9907-d32b24506e05.png);
 background-repeat:no-repeat;
 background-position:center 5px;
 }
 
 .col-four{
-background-image:url(img/other.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053948/01f0f284-0ea6-11e5-9786-9894e36474dd.png);
 background-repeat:no-repeat;
 background-position:center 10px;
 }
@@ -279,25 +279,25 @@ padding:25px 0px 30px;
 
 
 .col-five{
-background-image:url(img/card.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053943/00973dbc-0ea6-11e5-9d7d-1fa7020d4cf9.png);
 background-repeat:no-repeat;
 background-position:top center;
 }
 
 .col-six{
-background-image:url(img/megaphone.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053952/01f54ed8-0ea6-11e5-990f-23a0f1866ab9.png);
 background-repeat:no-repeat;
 background-position:top center;
 }
 
 .col-seven{
-background-image:url(img/picture.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053955/021769dc-0ea6-11e5-87ea-98593b6fd4f6.png);
 background-repeat:no-repeat;
 background-position:top center;
 }
 
 .col-eight{
-background-image:url(img/cup.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053951/01f52df4-0ea6-11e5-82c9-433fd91d0748.png);
 background-repeat:no-repeat;
 background-position:top center;
 }
@@ -329,15 +329,15 @@ font-size:17px;
 }
 
 .mail{
-background-image:url(img/mail.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053949/01f3626c-0ea6-11e5-99e0-6f13d36dbfde.png);
 }
 
 .phone{
-background-image:url(img/phone.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053954/0217297c-0ea6-11e5-85d5-930849b242b9.png);
 }
 
 .address{
-background-image:url(img/marker.png);
+background-image:url(https://cloud.githubusercontent.com/assets/12793538/8053947/01f0eb9a-0ea6-11e5-8b77-aa754a772ad2.png);
 }
 
 .map{
