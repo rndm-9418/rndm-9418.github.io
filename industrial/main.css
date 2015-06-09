@@ -1,0 +1,212 @@
+body{
+margin:auto 0;
+}
+
+.container{
+border-top:3px solid #1c1211;
+border-bottom:3px solid #1c1211;
+width:1001px;
+margin:auto;
+margin-top:30px;
+}
+
+.container-content-heading{
+border-top:1px solid black;
+padding-top:35px;
+padding-bottom:35px;
+margin-top:8px;
+}
+
+li{
+display:inline;
+float:left;
+padding-right:1px;
+
+}
+
+.container-header-logo{
+float:left;
+padding:15px 0 23px;
+}
+
+.container-header-menu{
+clear:both;
+}
+
+.container-header-phone{
+float:right;
+padding:23px 0 23px;
+}
+
+.container-content-first-block{
+overflow:hidden;
+width:1001px;
+}
+
+.container-content-first-block-today{
+float:left;
+
+
+}
+
+.container-content-first-block-text{
+width:680px;
+float:right;
+font-family:arial;
+font-size:12px;
+color:#2a2a2a;
+padding-left:110px;
+padding-right:6px;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+.container-content-second-block{
+overflow:hidden;
+width:1001px;
+}
+
+.container-content-second-block-tomorrow{
+float:left;
+}
+
+.container-content-second-block-text{
+float:right;
+width:680px;
+font-family:arial;
+font-size:12px;
+color:#2a2a2a;
+padding-left:110px;
+padding-right:6px;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+.phone-number{
+color:#7f7f7f;
+font-size:35px;
+font-family:arial;
+}
+
+.phone-text{
+color:#c6b2ad;
+font-family:"times new roman";
+font-size:13px;
+font-style:italic;
+}
+
+a.menu-link{
+text-decoration:none;
+display:inline-block;
+color:#ffffff;
+font-family:arial;
+font-size:12px;
+background:#088505;
+height:36px;
+padding-left:12px;
+padding-top:10px;
+transition:all 0.5s ease-out 0s;
+}
+
+a.menu-link:hover{
+background:#66CDAA;
+}
+
+a.about{
+width:155px;
+}
+
+a.news{
+width:154px;
+}
+
+a.contacts{
+width:152px;
+}
+
+a.vacancy{
+width:154px;
+}
+
+a.services{
+width:152px;
+}
+
+a.files{
+width:156px;
+}
+
+ul{
+padding:0px;
+margin:0px;
+overflow:hidden;
+}
+
+.footer{
+width:1001px;
+margin:auto;
+}
+
+.container-content-heading{
+font-family:"times new roman";
+font-size:50px;
+color:#2a2a2a;
+}
+
+.container-content-first-block-today, 
+.container-content-second-block-tomorrow{
+font-family:"times new roman";
+font-size:16px;
+color:#c8b2ad;
+
+}
+
+.first-block-text-heading, 
+.second-block-text-heading{
+font-family:"times new roman";
+font-size:17px;
+color:#088505;
+
+border-bottom:1px solid #e1e1e1;
+padding-top:3px;
+padding-bottom:3px;
+float:right;
+width:797px;
+}
+
+.second-block-text-heading{
+border-top:1px solid #1c1211;
+}
+
+.footer-text{
+font-family:arial;
+font-size:12px;
+color:#2a2a2a;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+a.text-link{
+color:#088505;
+transition:all 0.5s ease-out 0s;
+}
+
+a.text-link:hover{
+color:#66CDAA;
+}
+
+/*container width - 1000 px
+phone font - arial, 35px color:7f7f7f
+phone number font - times new roman 13 px, cursive color:c8b2ad
+menu font - arial 12px color:ffffff
+content font - arial, 12px, 2a 2a 2a 
+praesent font - tnr, 50px color:2a2a2a
+today/tomorrow - tnr 16px color:c8b2ad
+vivanus/ut font tnr, 17px, color:088505.
+all right 12px arial 2a2a2a
+button height - 46px
+button-width - 166px
+button-color - #088505
+button-gap - 1px;
+
+*/
