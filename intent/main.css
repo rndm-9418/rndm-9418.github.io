@@ -10,7 +10,7 @@ margin:0 auto;
 }
 
 .header .social{
-background-image:url("../img/pattern/pattern-black.jpg");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063616/d8ce4974-0ee6-11e5-9a8f-8c93fcccbe0a.jpg");
 overflow:hidden;
 padding:13px 0;
 }
@@ -82,7 +82,7 @@ font:1.5em "Bitter";
 }
 
 .photo-block{
-background-image:url("../img/photo/162853.jpg");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063382/709d2e52-0ee5-11e5-8895-7e6624309f2d.jpg");
 background-repeat:no-repeat;
 background-position:center top;
 background-size:cover;
@@ -113,28 +113,28 @@ background-position:center;
 
 .arrow-left{
 float:left;
-background-image:url("../img/icons/icon-left.png");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063722/78f9adf8-0ee7-11e5-8541-c8703d0d51d3.png");
 }
 
 .arrow-right{
 float:right;
-background-image:url("../img/icons/icon-right.png");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063735/7963602c-0ee7-11e5-8c98-300b53d3934b.png");
 }
 
 .background-1{
 height:97px;
-background-image:url("../img/pattern/pattern-light.jpg");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063617/d8cffce2-0ee6-11e5-9052-3d9f5b4bf41e.jpg");
 position:relative;
 }
 
 .background-2{
 height:690px;
-background-image:url("../img/pattern/pattern-light.jpg");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063617/d8cffce2-0ee6-11e5-9052-3d9f5b4bf41e.jpg");
 position:relative;
 }
 
 .footer{
-background-image:url("../img/pattern/pattern-black.jpg");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063616/d8ce4974-0ee6-11e5-9a8f-8c93fcccbe0a.jpg");
 border-top:8px solid #ea5a4b;
 padding:55px 0;
 color:#fff;
@@ -165,7 +165,7 @@ margin-bottom:1.5%;
 
 .gallery{
 padding:2%;
-background-image:url("../img/pattern/pattern-black.jpg");
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063616/d8ce4974-0ee6-11e5-9a8f-8c93fcccbe0a.jpg");
 box-sizing:border-box;
 position:relative;
 overflow:hidden;
@@ -256,15 +256,15 @@ float:left;
 }
 
 .col-icon-left{
-background-image:url(../img/icons/icon-gear.png);
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063726/78fbe62c-0ee7-11e5-9dc0-a408940bfc0a.png");
 }
 
 .col-icon-center{
-background-image:url(../img/icons/icon-person.png);
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063733/79239d98-0ee7-11e5-9186-408c13bb5a8a.png");
 }
 
 .col-icon-right{
-background-image:url(../img/icons/icon-pen.png);
+background-image:url("https://cloud.githubusercontent.com/assets/12793538/8063728/791e0040-0ee7-11e5-8bb3-422105565c2b.png");
 }
 
 .columns{
