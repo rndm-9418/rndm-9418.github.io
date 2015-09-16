@@ -1,1 +1,290 @@
+@media(max-width: 1100px){
+	.block-header__wrapper{
+		flex-direction: column;
+	}
 
+	.block-header__menu{
+		margin-right: 0;
+	}
+
+	.block-header__search{
+		position: static;
+	}
+
+	body{
+		margin-top: 10px;
+	}
+
+	.block-header__navigation{
+		width: 100%;
+	}
+
+	.slider-content{
+		top: 50px;
+	}
+
+	.block-footer__wrapper{
+		display: block;
+	}
+
+	.block-footer__column{
+		width: auto;
+		border-bottom: 1px solid #556270;
+		margin-bottom: 30px;
+	}
+
+	.block-footer__column--last{
+		margin-bottom: 0;
+	}
+
+	.block-footer__col-wrapper{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.block-footer__col-row--first{
+		padding-top: 10px;
+	}
+
+	.block-footer__col-header{
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.block-footer__col-row{
+		border-bottom: 0;
+	}
+
+	.block-footer__col-row-small{
+		position: static;
+	}
+
+	.block-footer__input{
+		width: 70%;
+		margin-bottom: 0;
+	}
+
+	.block-footer__form-header{
+		text-align: center;
+	}
+
+	.block-footer__col-row--signup{
+		width: 50%;
+	}
+}
+
+@media(max-width: 900px){
+	.block-header__wrapper,
+	.block-services__wrapper,
+	.block-portfolio__wrapper,
+	.block-offer__wrapper,
+	.block-testimonials__wrapper,
+	.block-footer__wrapper{
+		width: 85%;
+	}
+
+	.slider-content__subheader{
+		margin-bottom: 20px;
+	}
+
+	.slider-content__button{
+		padding: 5px 30px;
+		font-size: 1.25rem;
+	}
+
+	.slider-content__header{
+		font-size: 2.5rem;		
+	}
+}
+
+@media(max-width: 750px){
+	.block-header__wrapper,
+	.block-services__wrapper,
+	.block-portfolio__wrapper,
+	.block-offer__wrapper,
+	.block-testimonials__wrapper,
+	.block-footer__wrapper{
+		width: 90%;
+	}
+
+	.slider-content{
+	top: 25px;
+	}
+
+	.slider__controls{
+		display: none;
+	}
+}
+
+@media(max-width: 700px){
+	.block-services__wrapper{
+		width: 70%;
+		flex-wrap: wrap;
+	}
+
+	.block-offer::after{
+		border-bottom: 0;
+	}
+
+	.block-services__column-one,
+	.block-services__column-two,
+	.block-services__column-three,
+	.block-services__column-four{
+	width: 50%;
+	padding-top: 120px;
+	}
+
+	.block-services__column-one--first,
+	.block-services__column-one--second{
+		margin-bottom: 15px;
+	}
+
+	.block-offer__columns{
+		width: auto;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+
+	.block-offer__column{
+		width: 48%;
+	}
+
+	.block-offer__column--first,
+	.block-offer__column--second{
+		margin-bottom: 15px;
+	}
+}
+
+@media(max-width: 650px){
+	.block-testimonials,
+	.block-header__search,
+	.block-footer__column:nth-child(1),
+	.block-footer__column:nth-child(3){
+		display: none;
+	}
+
+	.block-header__menu{
+		margin: 0 auto;
+	}
+
+	.slider-content__button{
+		padding: 3px 20px;
+		font-size: 1rem;
+	}
+
+	.slider-content__header{
+		font-size: 2rem;		
+	}
+
+	.slider-content__subheader{
+		margin-bottom: 10px;
+	}
+
+	.block-portfolio__photo{
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.block-portfolio__gallery{
+		display: block;
+	}
+
+	.block-portfolio__img-wrap,
+	.block-portfolio__photo-header{
+		margin-bottom: 0px;
+	}
+
+	.block-portfolio__photo:nth-child(1),
+	.block-portfolio__photo:nth-child(2){
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 600px){
+	.block-portfolio__header{
+		margin-bottom: 20px;
+	}
+
+	.block-portfolio{
+		padding: 30px 0;
+	}
+
+	.slider{
+		display: none;
+	}
+}
+
+@media(max-width: 500px){
+	html{
+		font-size: 20px;
+	}
+
+	.block-footer__col-wrapper{
+		display: block;
+	}
+
+	.block-footer__col-row--signup{
+		width: auto;
+	}
+
+	.block-footer__col-wrapper--contact{
+		width: 45%;
+		margin: 0 auto;
+	}
+
+	.block-header__wrapper{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	.block-header__menu{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.block-header__menu-item{
+		padding: 10px;
+		margin: 0;
+	}
+}
+
+@media(max-width: 450px){
+	.block-header__menu{
+		width: 100%;
+	}
+
+	.block-services__column-one--first,
+	.block-services__column-one--second,
+	.block-services__column-one--third{
+		margin: 0 auto 15px;
+		width: 100%;
+	}
+
+	.block-services__column-one--fourth{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.block-portfolio__photo{
+		width: 90%;
+	}
+
+	.block-offer__column{
+		width: 80%;
+	}
+
+	.block-offer__column--first,
+	.block-offer__column--second,
+	.block-offer__column--third{
+		margin: 0 auto 15px;
+	}
+
+	.block-offer__column--fourth{
+		margin: 0 auto;
+	}
+
+	.block-footer__input{
+		width: 68%;
+		margin-bottom: 0;
+	}
+}
