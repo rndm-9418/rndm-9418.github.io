@@ -263,19 +263,19 @@ body{
 }
 
 .block-services__column-one{
-	background-image: url("../img/icon-screen.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899654/533b52b0-5c6c-11e5-9af1-695b2a581030.png");
 }
 
 .block-services__column-two{
-	background-image: url("../img/icon-glass.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899653/53386f14-5c6c-11e5-8e99-d58a0b61bb04.png");
 }
 
 .block-services__column-three{
-	background-image: url("../img/icon-basket.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899652/53341a4a-5c6c-11e5-824e-3389007b5601.png");
 }
 
 .block-services__column-four{
-	background-image: url("../img/icon-thumb.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899655/533c403a-5c6c-11e5-8fb6-d9325ee31e12.png");
 }
 
 .block-services__column-header{
