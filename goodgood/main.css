@@ -143,23 +143,23 @@ body{
 }
 
 .slider__slide-one{
-	background-image: url("../img/contents-one.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899047/33ff466c-5c68-11e5-9344-a1018f18b4c6.jpg");
 }
 
 .slider__slide-two{
-	background-image: url("../img/contents-two.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899049/34028dae-5c68-11e5-8c51-e67ae0c4ad26.jpg");
 }
 
 .slider__slide-three{
-	background-image: url("../img/contents-three.jpg");
+	background-image: url("../img/contents-three.jpghttps://cloud.githubusercontent.com/assets/12793538/9899048/34011186-5c68-11e5-9b1c-c1fbe6f8465d.jpg");
 }
 
 .slider__slide-four{
-	background-image: url("../img/contents-four.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899046/33fd29cc-5c68-11e5-85c4-9b7b0f11732b.jpg");
 }
 
 .slider__slide-five{
-	background-image: url("../img/contents-five.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/12793538/9899045/33f9200c-5c68-11e5-933b-99777be2571c.jpg");
 }
 
 .slider-content{
