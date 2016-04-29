@@ -1,0 +1,1 @@
+function responsiveMenu(){var e=$(".js-toggle"),s=$(".js-bar"),n=$(".js-main"),a=$(".js-menu");e.on("click",function(e){e.preventDefault(),s.toggleClass("header__bar--js-closed"),n.toggleClass("header__main--js-shifted"),a.toggleClass("header__menu--js-visible")})}responsiveMenu();
