@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PomodoroClock</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body class="pomodoro">
+	<h1 class="pomodoro__title">PomodoroClock</h1>
+	<div class="pomodoro__setup">
+		<div class="pomodoro__set-session">
+			<span class="pomodoro__minus js-minus-session">-</span><span class="pomodoro__session js-session">25</span><span class="pomodoro__plus js-plus-session">+</span>
+		</div>
+
+		<div class="pomodoro__set-break">
+			<span class="pomodoro__minus js-minus-break">-</span><span class="pomodoro__break js-break">5</span><span class="pomodoro__plus js-plus-break">+</span>
+		</div>
+	</div>
+	<div class="pomodoro__viewer js-viewer session waiting">
+		<h1 class="pomodoro__table-title js-title">session</h1>
+		<div class="pomodoro__table">
+			<span class="js-minutes">25</span><span class="js-dots"></span><span class="js-seconds"></span>
+		</div>
+	</div>
+<script src = "script.js"></script>
+</body>
+</html>
