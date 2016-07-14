@@ -86,7 +86,7 @@
 	margin-bottom: 13px;
 }
 
-.card__item{
+#main .card__item{
 	font-size: 1rem;
 	font-family: "PFAgoraSlabPro";
 	color:#030303;
