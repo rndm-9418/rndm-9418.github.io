@@ -16,9 +16,7 @@ function scrollToBlock(){
 
 	stage.on("click", function(event){
 
-		event.preventDefault();
-
-		stages.prependTo(body).addClass(sticky);
+	event.preventDefault();
                                                                                                  
     	if($(this).hasClass(predproject)){
     		var position = $(predprojectCard).offset().top;
@@ -32,9 +30,9 @@ function scrollToBlock(){
     		var position = $(expCard).offset().top;
     	}
 
-		var height = stages.outerHeight();
+	var height = stages.outerHeight();
 
-		$(window).scrollTop(position - height);
+	$(window).scrollTop(position - height);
 		
 	});
 }
@@ -51,10 +49,12 @@ function sticky(){
 
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > position){  
-    		stages.prependTo(body).addClass(sticky);	
+    		stages.prependTo(body).addClass(sticky);
+    		after.css("margin-bottom", "144px");
   		}
   		else{
     		stages.insertAfter(after).removeClass(sticky);
+    		after.css("margin-bottom", "22px");
   		}
 	});
 
