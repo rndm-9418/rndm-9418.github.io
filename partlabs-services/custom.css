@@ -95,7 +95,7 @@
 }
 
 #main .card__item--offset{
-	margin-bottom: 13px;
+	margin-bottom: 20px;
 }
 
 .card__list{
@@ -104,8 +104,8 @@
 	margin-bottom: 10px;
 }
 
-.card__list{
-	margin-bottom: 13px;
+.card__list--offset{
+	margin-bottom: 20px;
 }
 
 .card__list-item{
