@@ -255,3 +255,7 @@
 	width: 880px;
 	justify-content:flex-start;
 }
+
+.l-about a{
+	background:url("http://partlabs.ru/bitrix/templates/partlabs/images/l-about.png") 43px 27px no-repeat;
+}
