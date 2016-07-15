@@ -362,8 +362,8 @@ th {
 }
 @font-face {
   font-family: 'pf_agora_slab_proregular';
-  src: url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot');
-  src: url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot?#iefix') format('embedded-opentype'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff2') format('woff2'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff') format('woff'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.ttf') format('truetype');
+  src: url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot');
+  src: url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot?#iefix') format('embedded-opentype'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff2') format('woff2'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff') format('woff'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -607,9 +607,13 @@ border-bottom: none;/*1px solid #9acdd5;*/
 border-color: #9acdd5;
 border-color: rgba(154, 205, 213, 0.4);
 }
-.main-menu ul li.l-about a {
+/*.main-menu ul li.l-about a {
   background: url(/bitrix/templates/partlabs/./images/l-about.png) 43px 27px no-repeat;
+}*/
+.main-menu ul li.l-about a {
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/images/l-about.png) 43px 27px no-repeat;
 }
+
 .main-menu ul li.l-about a:hover {
   background-position: 43px -86px;
 }
@@ -617,7 +621,7 @@ border-color: rgba(154, 205, 213, 0.4);
   background-position: 43px -86px;
 }
 .main-menu ul li.l-party a {
-  background: url(/bitrix/templates/partlabs/./images/l-party.png) 16px 27px no-repeat;
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/./images/l-party.png) 16px 27px no-repeat;
 }
 .main-menu ul li.l-party a:hover {
   background-position: 16px -87px;
@@ -626,7 +630,7 @@ border-color: rgba(154, 205, 213, 0.4);
   background-position: 16px -87px;
 }
 .main-menu ul li.l-partners a {
-  background: url(/bitrix/templates/partlabs/./images/l-partners.png) 16px 27px no-repeat;
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/./images/l-partners.png) 16px 27px no-repeat;
 }
 .main-menu ul li.l-partners a:hover {
   background-position: 16px -87px;
@@ -635,7 +639,7 @@ border-color: rgba(154, 205, 213, 0.4);
   background-position: 16px -87px;
 }
 .main-menu ul li.l-projects a {
-  background: url(/bitrix/templates/partlabs/./images/l-projects.png) 16px 27px no-repeat;
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/./images/l-projects.png) 16px 27px no-repeat;
 }
 .main-menu ul li.l-projects a:hover {
   background-position: 16px -87px;
@@ -644,7 +648,7 @@ border-color: rgba(154, 205, 213, 0.4);
   background-position: 16px -87px;
 }
 .main-menu ul li.l-services a {
-  background: url(/bitrix/templates/partlabs/./images/l-services.png) 16px 27px no-repeat;
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/./images/l-services.png) 16px 27px no-repeat;
 }
 .main-menu ul li.l-services a:hover {
   background-position: 16px -87px;
@@ -653,7 +657,7 @@ border-color: rgba(154, 205, 213, 0.4);
   background-position: 16px -87px;
 }
 .main-menu ul li.l-news a {
-  background: url(/bitrix/templates/partlabs/./images/l-news.png) 16px 27px no-repeat;
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/./images/l-news.png) 16px 27px no-repeat;
 }
 .main-menu ul li.l-news a:hover {
   background-position: 16px -87px;
@@ -662,7 +666,7 @@ border-color: rgba(154, 205, 213, 0.4);
   background-position: 16px -87px;
 }
 .main-menu ul li.l-contacts a {
-  background: url(/bitrix/templates/partlabs/./images/l-contacts.png) 19px 27px no-repeat;
+  background: url(http://partlabs.ru/bitrix/templates/partlabs/./images/l-contacts.png) 19px 27px no-repeat;
 }
 .main-menu ul li.l-contacts a:hover {
   background-position: 19px -87px;
