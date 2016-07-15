@@ -107,11 +107,11 @@
 }
 
 .card__column{
-	width: 45%;
+	width: 44%;
 }
 
 .card__column:first-child{
-	margin-right: 5%;
+	margin-right: 8%;
 }
 
 .stages__wrap{
