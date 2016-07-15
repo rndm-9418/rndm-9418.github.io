@@ -363,7 +363,7 @@ th {
 @font-face {
   font-family: 'pf_agora_slab_proregular';
   src: url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot');
-  src: url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot?#iefix') format('embedded-opentype'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff2') format('woff2'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff') format('woff'), url('/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.ttf') format('truetype');
+  src: url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.eot?#iefix') format('embedded-opentype'), url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff2') format('woff2'), url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.woff') format('woff'), url('http://partlabs.ru/bitrix/templates/partlabs/./fonts/pfagoraslabpro-reg-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
