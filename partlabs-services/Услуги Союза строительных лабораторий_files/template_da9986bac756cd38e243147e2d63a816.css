@@ -607,9 +607,7 @@ border-bottom: none;/*1px solid #9acdd5;*/
 border-color: #9acdd5;
 border-color: rgba(154, 205, 213, 0.4);
 }
-/*.main-menu ul li.l-about a {
-  background: url(/bitrix/templates/partlabs/./images/l-about.png) 43px 27px no-repeat;
-}*/
+
 .main-menu ul li.l-about a {
   background: url(http://partlabs.ru/bitrix/templates/partlabs/images/l-about.png) 43px 27px no-repeat;
 }
@@ -679,11 +677,17 @@ border-color: rgba(154, 205, 213, 0.4);
   background-color: #e96e44;
   text-decoration: none;
 }
-.main-menu ul li.item-first a {
+/*.main-menu ul li.item-first a {
   padding-left: 65px;
+}*/
+.link--first{
+	padding-left: 65px;	
 }
-.main-menu ul li.item-last a {
+/*.main-menu ul li.item-last a {
   padding-right: 20px;
+}*/
+.link--first{
+	padding-left: 20px;	
 }
 .main-menu ul li a {
   display: block;
