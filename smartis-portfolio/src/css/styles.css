@@ -437,15 +437,22 @@ em {
 
     }
 
-    .header__illustration.header__illustration--illustration7 {
+    /* .header__illustration.header__illustration--illustration7 {
         background: url('../images/portfolio_illustration_7.jpg') center center no-repeat;
         background-size: cover;
-    }
+    } */
+
+
 
     .header__illustration.header__illustration--illustration8 {
         background: url('../images/portfolio_illustration_8.jpg') left bottom no-repeat #f5f5f7;
         background-size: cover;
         padding: 280px 0 0 0;
+    }
+
+    .header__illustration.header__illustration--illustration10 {
+        background: url('../images/portfolio_illustration_10.jpg') center center no-repeat;
+        background-size: cover;
     }
 
         .header__illustration article {
@@ -473,6 +480,11 @@ em {
             left: 0;
             z-index: -1;
         }
+
+    .header__illustration .header__video{
+        min-width: 100%;
+        min-height: 100%;
+    }
 
     .portfolioWork__content__menu {
         margin: 0 0 50px 0;
@@ -595,7 +607,17 @@ em {
         margin-bottom: 60px;
     }
 
+    .portfolioWork__content.portfolioWork__content--table {
+        margin-bottom: 99px;
+    }
+
     .portfolioWork__content.portfolioWork__content--portfolio8 h2{
+        margin: 0 0 32px 0;
+        font: normal 40px/41px "Minion Pro Cond Subh", serif;
+        text-align: center;
+    }
+
+    .portfolioWork__content.portfolioWork__content--portfolio10 h2{
         margin: 0 0 32px 0;
         font: normal 40px/41px "Minion Pro Cond Subh", serif;
         text-align: center;
@@ -614,7 +636,9 @@ em {
         }
 
     .portfolioWork__content.portfolioWork__content--portfolio2,
-    .portfolioWork__content.portfolioWork__content--portfolio7{
+    .portfolioWork__content.portfolioWork__content--portfolio7,
+    .portfolioWork__content.portfolioWork__content--portfolio9,
+    .portfolioWork__content.portfolioWork__content--portfolio10{
         margin: 53px auto 39px auto;
     }
 
@@ -660,6 +684,15 @@ em {
 
             .iconLink--synergy {
                 background: url('../images/icon_client_synergy.png') left center no-repeat;
+            }
+
+            .iconLink--ovchin {
+                padding: 3px 0 0 0;
+            }
+
+            .iconLink--grandflora {
+                background: url('../images/icon_client_grandflora.png') left center no-repeat;
+                padding: 3px 5px 5px 35px;
             }
 
     .portfolioWork__content__twoColumns {
@@ -750,7 +783,9 @@ em {
     .portfolioWork__preview.portfolioWork__preview--portfolioWork5,
     .portfolioWork__preview.portfolioWork__preview--portfolioWork6-5,
     .portfolioWork__preview.portfolioWork__preview--portfolioWork7,
-    .portfolioWork__preview.portfolioWork__preview--portfolioWork8{
+    .portfolioWork__preview.portfolioWork__preview--portfolioWork8,
+    .portfolioWork__preview.portfolioWork__preview--portfolioWork9,
+    .portfolioWork__preview.portfolioWork__preview--portfolioWork10{
         max-width: 1002px;
     }
 
@@ -906,8 +941,12 @@ em {
             margin: 0 auto;
         }
 
-    .content__illustration.content__illustration--6 {
+    .content__illustration.content__illustration--6{
         margin-bottom: 100px;
+    }
+
+    .content__illustration.content__illustration--10 {
+        margin-bottom: 15px;
     }
 
     .portfolioWork__content__bigImage {
@@ -996,6 +1035,18 @@ em {
         margin: 89px 4% 0 4%;
         position: relative;
     }
+
+    .portfolioWork__content__liveBanner--black .loadAnimationContainer{
+        position: relative;
+    }
+
+    .portfolioWork__content__liveBanner--black {
+        background-color: #000;
+        color:#fff;
+        margin: 0;
+        padding: 89px 4% 0 4%;
+    }
+
 
         .portfolioWork__content__liveBanner img {
             display: block;
@@ -1439,6 +1490,10 @@ em {
 
 /*8*/
 
+.stats--centered{
+    text-align: center;
+}
+
 .stats__column{
     display: inline-block;
     margin-right: 55px;
@@ -1506,3 +1561,51 @@ em {
     line-height: 20px;
     padding-top: 15px;
 }
+
+/*9*/
+
+.questions{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+.questions img{
+    display: block;
+}
+
+.questions__data{
+    vertical-align: top;
+    padding-top: 3px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+}
+
+.questions__data:nth-child(1){
+    width: 178px;
+}
+
+.questions__data:nth-child(2){
+    width: 262px;
+}
+
+.questions__data:nth-child(3){
+    width: 360px;
+}
+
+.questions__row:first-child .questions__data{
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+
+.questions__row:last-child .questions__data{
+    padding-bottom: 0;
+}
+
+.compare{
+    display: block;
+    margin: 0 auto;
+}
+
+
