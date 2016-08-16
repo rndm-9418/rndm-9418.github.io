@@ -1,0 +1,300 @@
+body{
+	min-width:980px;
+	font-family: "Open Sans", sans-serif;
+}
+
+.slider{
+	width:100%;
+}
+
+.wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.slider__slide{
+	width:100%;
+	display: block;
+}
+
+.exclaim{
+	padding: 59px 0 44px;
+}
+
+.exclaim h1{
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	color:#333;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.news{
+	padding-bottom: 78px;
+}
+
+.news__title{
+	margin-top: 0;
+	margin-bottom: 17px;
+	color: #333;
+	font-size: 24px;
+	font-weight: 400;
+	padding-left: 25px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.news__title span{
+	position: relative;
+	background-color: #fff;
+	padding: 0 14px;
+}
+
+.news__title:before{
+	content:"";
+	position: absolute;
+	border-bottom:1px solid #ccc;
+	width: 100%;
+	left: 0;
+	top:19px;
+}
+
+.news__articles{
+	display: flex;
+	justify-content:space-between;
+}
+
+.article{
+	width: 260px;
+}
+
+.article__date{
+	color:#999;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 9px;
+}
+
+.article__photo{
+	border: 3px solid #ccc;
+	display: block;
+	margin-bottom: 8px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.article__title{
+	font-size: 18px;
+	color:#333;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 7px;
+	line-height: 22px;
+}
+
+.article__text{
+	font-size: 14px;
+	color:#333;
+	margin-top: 0;
+	margin-bottom: 17px;
+	line-height: 22px;
+}
+
+.article__more{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #f4f4f4;
+	border: 1px solid #ababab;
+	color:#b1abb4;
+	padding: 2px 26px;
+	transition:color 1s, background-color 1s;
+	border-radius: 14px;
+}
+
+.article__more:hover{
+	background-color: #e4d8d8;
+	color:#b49ba5;
+}
+
+.video{
+	padding-bottom: 85px;
+}
+
+.video__title-underline{
+	position: relative;
+}
+
+.video__title-underline:before{
+	content:"";
+	position: absolute;
+	border-bottom:1px solid #ccc;
+	width: 100%;
+	left: 0;
+	top:35px;
+}
+
+.video__title{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color:#214e68;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 34px;
+	background-color: #fff;
+	max-width: 600px;
+	margin: 0 auto 34px;
+	padding: 0 13px;
+}
+
+.display{
+	width: 565px;
+	height: 496px;
+	margin: 0 auto;
+	background-image: url("img/display.png");
+	position: relative;
+}
+
+.display__screen{
+	position: absolute;
+	top: 26px;
+	left:26px;
+}
+
+.offers__title-underline{
+	position: relative;
+}
+
+.offers__title-underline:before{
+	content:"";
+	position: absolute;
+	border-bottom:1px solid #ccc;
+	width: 100%;
+	left: 0;
+	top:35px;
+}
+
+.offers{
+	padding-bottom: 102px;
+}
+
+.offers__title{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color:#333;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 34px;
+	background-color: #fff;
+	max-width: 500px;
+	margin: 0 auto 53px;
+	padding: 0 35px;
+}
+
+.offers__cards{
+	display: flex;
+	justify-content:space-between;
+}
+
+.card{
+	width: 172px;
+	border-radius: 3px;
+	overflow: hidden;
+	display: block;
+	text-decoration: none;
+	transition:box-shadow 1s;
+}
+
+.card:hover{
+	box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.45);
+}
+
+.card:hover .card__header{
+	background-color: #ff4e4e;
+}
+
+.card__header{
+	background-color: #224e69;
+	min-height: 63px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	box-sizing: border-box;
+	transition:background-color 1s;
+}
+
+.card__title{
+	font-size: 24px;
+	color:#fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1px;
+}
+
+.card__subtitle{
+	font-size:10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color:#fff;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card__body{
+	background-color: #efefef;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding-top: 26px;
+	padding-bottom: 37px;
+}
+
+.card__deposit{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color:#333;
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.card__percent{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color:#333;
+	font-size: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.footer{
+	background-color: #204c67;
+	padding-top: 13px;
+	padding-bottom: 23px;
+}
+
+.footer .wrap{
+	width: 943px;
+	display: flex;
+	justify-content:space-between;
+}
+
+.logo{
+	width: 226px;
+	height: 40px;
+	background-image: url("img/logo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer__copyright{
+	font-size: 12px;
+	color:#fff;
+}
