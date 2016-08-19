@@ -7,14 +7,34 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.wrap{
-	width: 1060px;
+.container{
+	width: 1160px;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .agent {
     height: 60px;
+}
+
+.agent_primary .agent__info{
+    background-color: #e7f4fc;
+}
+
+.agent_primary .agent__baseline{
+    padding-right: 40px;
+}
+
+.agent_primary .agent__name{
+    font-size: 18px;
+}
+
+.agent_primary .agent__align{
+    width: 730px;
+}
+
+.agent_primary .agent__data{
+    font-size: 14px;
 }
 
 .agent__content{
@@ -32,14 +52,10 @@
 	align-items:center;
 }
 
-.agent__info_primary{
-	background-color: #e7f4fc;
-}
-
 .avatar{
 	width: 60px;
 	height: 60px;
-	display: block;
+	vertical-align: top;
 	border-radius: 50%;
 	position: relative;
 }
@@ -49,11 +65,7 @@
 	line-height: normal;
 	color: #333;
 	font-weight: 700;
-	//width: 195px;
-}
-
-.agent__name_primary{
-	font-size: 18px;
+	padding-right: 15px;
 }
 
 .agent__link{
@@ -90,10 +102,6 @@
 	padding-right: 0;
 }
 
-.agent__data_primary{
-	font-size: 14px;
-}
-
 .agent__baseline{
 	display: flex;
 	align-items:baseline;
@@ -104,18 +112,10 @@
 	padding-right: 100px;
 }
 
-.agent__baseline_primary{
-	padding-right: 40px;
-}
-
 .agent__align{
 	display: flex;
 	justify-content:space-between;
 	width: 530px;
-}
-
-.agent__align_primary{
-	width: 730px;
 }
 
 .agent__highlight{
@@ -167,9 +167,25 @@
 }
 
 .accordion__handler:before {
-    content: '+';
-	color:#fff;
-	font-weight: 700;
+    content: '';
+	position: absolute;
+	width: 8px;
+	height: 2px;
+	background-color: #fff;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+}
+
+.accordion__handler:after {
+    content: '';
+	position: absolute;
+	width: 2px;
+	height: 8px;
+	background-color: #fff;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
 }
 
 .accordion__sub-section {
@@ -194,10 +210,8 @@
     line-height: 17px;
 }
 
-.accordion__section_active > .accordion__handler:before {
-    content: '–';
-    color:#fff;
-	font-weight: 700;
+.accordion__section_active > .accordion__handler:after {
+    height: 0;
 }
 
 .accordion__section_active > .accordion__sub-section {
