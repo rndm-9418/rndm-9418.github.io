@@ -229,4 +229,11 @@
 .slick-dots li.slick-active
 {
     background-color: #fff;
+    cursor: default;
 }
+
+.slick-dots li.slick-active button
+{
+    cursor: default;
+}
+
