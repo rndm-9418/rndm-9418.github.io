@@ -1,0 +1,247 @@
+.c-content{
+	padding: 25px 40px;
+	max-width: 850px;
+}
+
+@media (max-width: 568px){
+	.c-content{
+		padding: 20px 5px;
+	}
+}
+
+.c-main-title{
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 34px;
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.c-text-block{
+	font-size: 16px;
+	line-height: 1.7;
+	margin-bottom: 16px;
+}
+
+.c-text-block--offset-bottom{
+	margin-bottom: 50px;
+}
+
+.c-price-card{
+	border: 3px solid #446e9b;
+	border-radius: 5px;
+	margin: 0 auto 16px;
+	box-sizing: border-box;
+	padding: 45px;
+	text-align: center;
+}
+
+@media (max-width: 568px){
+	.c-price-card{
+		padding: 20px;
+	}
+}
+
+.c-price-card__title{
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-size: 24px;
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.c-price-card__price{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.c-price-card__price-number{
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.c-price-card__highlight{
+	font-weight: 700;
+}
+
+.c-price-card__more{
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.c-price-card__more--offset-bottom{
+	margin-bottom: 25px;
+}
+
+.c-price-card__order-button{
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+	background-color: #446e9b;
+	color: #fff;
+	font-size: 16px;
+	padding: 15px 30px;
+}
+
+.c-price-card__order-button:hover{
+	color: #fff;
+	background-color: #383838;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.c-calculator{
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 3px solid #ccc;
+	padding: 25px;
+	margin-bottom: 16px;
+}
+
+.c-calculator__row{
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 480px){
+	.c-calculator{
+		padding: 20px;
+	}
+	.c-calculator__row{
+		margin-bottom: 20px;
+	}
+
+	.c-calculator__row--reverse{
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+}
+
+.c-calculator__row:last-child{
+	margin-bottom: 0;
+}
+
+.c-calculator__input{
+	width: 150px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-right: 20px;
+	height: 30px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	flex-shrink: 0;
+}
+
+.c-calculator__select{
+	width: 150px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-right: 20px;
+	height: 30px;
+	padding: 0 10px;
+	flex-shrink: 0;
+}
+
+.c-calculator__button{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 30px;
+	background-color: #fff;
+}
+
+.c-calculator__result{
+	font-weight: 700;
+}
+
+.c-pricing-table{
+	width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.c-sns-card{
+	margin-bottom: 20px;
+}
+
+.c-sns-card__title{
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-size: 20px;
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    padding-left: 50px;
+    height: 40px;
+    line-height: 40px;
+    background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+.c-sns-card__title--vk{
+	background-image: url("vk.svg");
+}
+
+.c-sns-card__title--yt{
+	background-image: url("youtube.svg");
+}
+
+.c-sns-card__title--inst{
+	background-image: url("instagram.svg");
+}
+
+.c-sns-card__title--twi{
+	background-image: url("twitter.svg");
+}
+
+.c-sns-card__title--fb{
+	background-image: url("facebook.svg");
+}
+
+.c-sns-card__title--google{
+	background-image: url("google.svg");
+}
+
+.c-sns-card__title--ok{
+	background-image: url("ok.svg");
+}
+
+.c-pricing-table th{
+	padding: 5px 0;
+}
+
+.c-pricing-table td{
+	padding: 5px 0;
+}
+
+.c-pricing-table__head{
+	border-bottom: 1px solid #ccc;
+}
+
+.c-register{
+	text-align: center;
+}
+
+.c-register__button{
+	display: inline-block;
+	border: 0;
+	border-radius: 10px;
+	background-color: #446e9b;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px 35px;
+}
+
+.c-register__button:hover{
+	color: #fff;
+	background-color: #383838;
+}
