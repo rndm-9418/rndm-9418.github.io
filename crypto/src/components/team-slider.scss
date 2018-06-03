@@ -1,0 +1,47 @@
+.team-slider{
+	box-sizing: border-box;
+	padding: 0 33px;
+
+	&__slide{
+		text-align: center;
+	}
+
+	&__image{
+		border-radius: 50%;
+		vertical-align: top;
+		margin: 0 auto 14px;
+	}
+
+	&__name{
+		font-weight: 500;
+		line-height: 29px;
+		font-size: 20px;
+		color: #000;
+		margin-bottom: 13px;
+	}
+
+	&__description{
+		margin-bottom: 23px;
+	}
+
+	&__socials{
+		display: flex;
+		justify-content: center;
+	}
+
+	&__social{
+		width: 21px;
+		height: 21px;
+		border: 1px solid black;
+		box-sizing: border-box;
+		margin-right: 7px;
+	}
+
+	&__social:last-child{
+		margin-right: 0;
+	}
+
+
+
+
+}

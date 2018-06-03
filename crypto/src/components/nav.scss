@@ -1,0 +1,16 @@
+.nav{
+	padding-top: 39px;
+	padding-bottom: 44px;
+
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&--color-filled{
+		background: linear-gradient(92.24deg, #42A2E8 23.72%, #42DEE8 99.95%);
+		padding-top: 52px;
+		padding-bottom: 51px;
+	}
+}

@@ -1,0 +1,24 @@
+.report{
+	padding-top: 83px;
+	padding-bottom: 47px;
+
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&__content{
+		max-width: 512px;
+		position: relative;
+		top: -4px;
+	}
+
+	&__subsection-title{
+		margin-bottom: 22px;
+	}
+
+	&__text{
+		margin-bottom: 27px;
+	}
+}

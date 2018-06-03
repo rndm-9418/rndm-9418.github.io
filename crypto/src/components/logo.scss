@@ -1,0 +1,22 @@
+.logo{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 41px;
+	color: #42BBE9;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: 90px;
+	background-image: url("../images/logo.svg");
+	background-repeat: no-repeat;
+	padding-left: 132px;
+
+	&:hover{
+		color:#083344;
+	}
+
+	&--white{
+		color: #fff;
+		background-image: url("../images/logo--white.svg");
+	}
+}

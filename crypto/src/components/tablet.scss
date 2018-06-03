@@ -1,0 +1,68 @@
+.tablet{
+	width: 545px;
+	height: 440px;
+	background-image: url("../images/tablet.png");
+	background-repeat: no-repeat;
+	position: relative;
+	flex-shrink: 0;
+
+	&__screen{
+		position: absolute;
+		width: 447px;
+		height: 335px;
+		top: 45px;
+		left: 50px;
+		background-image: url("../images/wave.svg");
+		background-repeat: no-repeat;
+		background-position: -3px 179px;
+		padding: 34px 41px;
+		box-sizing: border-box;
+	}
+
+	&__top{
+		margin-bottom: 76px;
+	}
+
+	&__bottom{
+		display: flex;
+	}
+
+	&__data{
+		margin-bottom: 19px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&__data--offset-right{
+		margin-right: 71px;
+	}
+
+	&__bottom .tablet__data{
+		margin-bottom: 0;
+	}
+
+	&__title{	
+		font-weight: 500;
+		line-height: 23px;
+		font-size: 20px;
+		color: #FFF;
+		margin-bottom: 11px;
+
+		&--highlight{
+			font-size: 18px;
+			color: #80FDE6;
+		}
+	}
+
+	&__description{
+		line-height: 18px;
+		font-size: 16px;
+		color: #E5E5E5;
+	}
+
+
+
+
+}

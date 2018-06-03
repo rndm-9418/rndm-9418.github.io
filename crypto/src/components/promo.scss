@@ -1,0 +1,47 @@
+.promo{
+	padding-top: 43px;
+	padding-bottom: 156px;
+
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&__content{
+		padding-top: 67px;
+	}
+
+	&__pretitle{
+		margin-top: 0;
+		margin-bottom: 9px;
+		color: #000;
+		font-size: 30px;
+		line-height: 34px;
+		font-weight: 500;
+	}
+
+	&__description{
+		max-width: 230px;
+		margin-top: 0;
+		margin-bottom: 69px;
+	}
+
+	&__divider{
+		line-height: 22px;
+		color: #2C2C2C;
+		margin: 0 16px;
+		position: relative;
+		top: 9px;
+	}
+
+	&__main-title{
+		margin-bottom: 29px;
+	}
+
+	&__options{
+		display: flex;
+		align-items: flex-start;
+	}
+
+}

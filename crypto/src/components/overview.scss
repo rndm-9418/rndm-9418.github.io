@@ -1,0 +1,121 @@
+.overview{
+	border: 1px solid #F3F4F6;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 4px rgba(35, 36, 37, 0.3);
+	border-radius: 3px;
+	width: 562px;
+	height: 372px; /*???*/
+	position: relative;
+	padding: 22px 12px;
+	flex-shrink: 0;
+
+	&__title{
+		font-weight: 500;
+		line-height: 23px;
+		font-size: 20px;
+		color: #232425;
+		margin-top: 0;
+		margin-bottom: 61px;
+	}
+
+	&__periods{
+		display: flex;
+		margin-bottom: 19px;
+	}
+
+	&__period{
+		line-height: 14px;
+		font-size: 12px;
+		color: #232425;
+		text-decoration: none;
+		margin-right: 20px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		&:hover{
+			color:#083344;
+		}
+
+		&--active{
+			color: #4ED8DA;
+			border-bottom: 2px solid #4ED8DA;
+
+			&:hover{
+				color: #4ED8DA;
+			}
+		}
+	}
+
+	&__years{
+		display: flex;
+		position: absolute;
+		top: 25px;
+		left: 348px;
+	}
+
+	&__year{
+		font-family: "Roboto";
+		line-height: 14px;
+		font-size: 12px;
+		color: #4ED8DA;
+		text-decoration: none;
+		position: relative;
+		padding-left: 20px;
+		margin-right: 25px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		&:after{
+			position: absolute;
+			content: "";
+			width: 8px; 
+			height: 10px; 
+			background-color: #4ED8DA; 
+			border-radius: 50%;
+			left: 0;
+			top: 0;
+		}
+
+		&:hover{
+			color:#083344;
+		}
+
+		&:hover:after{
+			background-color:#083344;
+		}
+
+		&--active{
+			color: #C04DD8;
+
+			&:after{
+				background-color: #C04DD8;
+			}
+
+			&:hover{
+				color: #C04DD8;
+			}
+
+			&:hover:after{
+				background-color:#C04DD8;
+			}
+		}
+	}
+
+	&__inner-wrap{
+		padding: 0 11px;
+	}
+
+	&__graph{
+		vertical-align: top;
+	}
+
+
+
+
+}
+
+

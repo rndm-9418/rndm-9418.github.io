@@ -1,0 +1,29 @@
+.portfolio{
+	padding-top: 46px;
+	padding-bottom: 120px;
+
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&__content{
+		max-width: 447px;
+	}
+
+	&__visual{
+		width: 49%;
+		display: flex;
+		justify-content: center;
+		padding-top: 4px;
+	}
+
+	&__subsection-title{
+		margin-bottom: 16px;
+	}
+
+	&__text{
+		margin-bottom: 34px;
+	}
+}

@@ -1,0 +1,31 @@
+.founder{
+
+	&__wrap{
+		padding-top: 42px;
+		padding-bottom: 76px;
+		position: relative;
+	}
+
+	&__content{
+		max-width: 565px;
+		padding-left: 396px;
+	}
+
+	&__section-title{
+		margin-bottom: 4px;
+	}
+	
+	&__subtitle{
+		line-height: 36px;
+		font-size: 25px;
+		color: #000;
+		margin-top: 0;
+		margin-bottom: 26px;
+	}
+
+	&__image{
+		position: absolute;
+		left: 21px;
+		bottom: 0;
+	}
+}
