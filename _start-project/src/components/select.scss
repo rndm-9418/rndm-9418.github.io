@@ -1,0 +1,36 @@
+.select {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 25px;
+	max-width: 320px;
+}
+
+.select__output {
+	border: 1px solid $input-border-color;
+	font-size: 24px;
+	text-align: center;
+	font-weight: $font-weight-reg;
+	color: $text-color--muted;
+	height: 60px;
+	border-radius: 4px;
+	line-height: 60px;
+	box-sizing: border-box;
+	background-image: url("../svg/icon-down.svg");
+	background-repeat: no-repeat;
+	background-position: 93% center;
+}
+
+.select__widget {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+
+	&:focus + .select__output{
+		outline: 0;
+		border-color: $input-border-color--hover;
+	}
+}

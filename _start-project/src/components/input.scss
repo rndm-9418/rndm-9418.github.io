@@ -1,0 +1,35 @@
+.input{
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid $input-border-color;
+	height: 60px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 14px 20px 0;
+	font-weight: $font-weight-reg;
+	font-size: 20px;
+
+	&:focus{
+		outline: 0;
+		border-color: $input-border-color--hover;
+	}
+
+	&--textarea{
+		resize: vertical;
+		text-align: left;
+		min-height: 180px;
+		max-width: 520px;
+		margin: 0 auto;
+		padding: 19px;
+		display: block;
+
+		&::placeholder{
+			color: #c8c8c8;
+			opacity: 1;
+			font-size: 20px;
+			font-weight: $font-weight-reg;
+		}
+	}
+
+
+}

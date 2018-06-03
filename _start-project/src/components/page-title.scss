@@ -1,0 +1,31 @@
+.page-title{
+	padding-top: 114px;
+	padding-bottom: 29px;
+	background-image: linear-gradient(to top, #fff 30%, transparent 70%), url("../images/background-lg.jpg"); /*1170x250*/
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	@media (max-width: 1170px) {
+		background-size: auto;
+	}
+
+	@media (max-width: 768px) {
+		background-image: linear-gradient(to top, #fff 30%, transparent 70%), url("../images/background-md.jpg"); /*768x250*/
+	}
+
+	@media (min-resolution: 2dppx) {
+		background-image: linear-gradient(to top, #fff 30%, transparent 70%), url("../images/background-lg@x2.jpg"); /*2340x500*/
+	}
+
+	@media (min-resolution: 2dppx) and (max-width: 768px) {
+		background-image: linear-gradient(to top, #fff 30%, transparent 70%), url("../images/background-md@x2.jpg"); /*1536x500*/
+	}
+
+	&__text{
+		text-align: center;
+		font-weight: $font-weight-thin;
+		font-size: $font-size--h1;
+		margin: 0;
+	}
+}

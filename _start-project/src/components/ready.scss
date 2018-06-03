@@ -1,0 +1,10 @@
+.ready{
+	padding-top: 35px;
+	/* padding-bottom: 75px; */
+	padding-bottom: 100px;
+
+	&__wrap{
+		display: flex;
+		justify-content: center;
+	}
+}

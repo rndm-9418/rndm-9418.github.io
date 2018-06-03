@@ -1,0 +1,19 @@
+.button{
+	box-sizing: border-box;
+	display: inline-block;
+	border: 0;
+	background-color: $link-color;
+	border-radius: 10px;
+	color: #fff;
+	font-size: $font-size;
+	padding: 15px 32px;
+
+	&:hover{
+		background-color: $link-color--hover;
+	}
+
+	&:active{
+		outline: 0;
+	}
+
+}

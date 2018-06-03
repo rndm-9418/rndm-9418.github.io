@@ -1,0 +1,29 @@
+.info{
+	padding-top: 29px;
+	padding-bottom: 37px;
+
+	&__icon{
+		margin-bottom: 22px;
+	}
+
+	&__inputs{
+		max-width: 520px;
+		margin: 0 auto;
+	}
+
+	&__title{
+		margin-bottom: 46px;
+	}
+
+	&__pseudo-input{
+		margin-bottom: 25px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&__pseudo-select{
+		margin: 0 auto 25px;
+	}
+}
