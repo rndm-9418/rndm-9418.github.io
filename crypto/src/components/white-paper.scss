@@ -1,4 +1,11 @@
 .white-paper{
 	background-color: #43A3E9;
-	height: 563px;
+	/* height: 563px; */
+	padding-top: 33px;
+	padding-bottom: 33px;
+
+	&__wrap{
+		display: flex;
+		justify-content: flex-end;
+	}
 }

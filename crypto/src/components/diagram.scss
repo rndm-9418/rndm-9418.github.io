@@ -1,0 +1,25 @@
+.diagram{
+	width: 222px;
+	height: 220px;
+	background-repeat: no-repeat;
+	position: relative;
+
+	&__data{
+		font-family: "Roboto";
+		line-height: 16px;
+		font-size: 14px;
+		letter-spacing: 0.116667px;
+		color: #FFFFFF;
+		position: absolute;
+
+		&--1st{
+			top: 62px;
+			left: 155px;
+		}
+
+		&--2nd{
+			top: 95px;
+			left: 51px;
+		}
+	}
+}

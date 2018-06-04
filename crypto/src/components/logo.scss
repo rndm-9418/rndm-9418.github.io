@@ -6,17 +6,19 @@
 	text-decoration: none;
 	display: flex;
 	align-items: center;
-	height: 90px;
-	background-image: url("../images/logo.svg");
-	background-repeat: no-repeat;
-	padding-left: 132px;
 
 	&:hover{
 		color:#083344;
 	}
 
+	&__image{
+		width: 120px;
+		height: 90px;
+		margin-right: 12px;
+		background-repeat: no-repeat;
+	}
+
 	&--white{
 		color: #fff;
-		background-image: url("../images/logo--white.svg");
 	}
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>BERG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <link rel="stylesheet" href="../vendor/slick/slick.css">
@@ -17,7 +17,10 @@
     <div class="screen">
       <div class="nav">
         <div class="wrap nav__wrap">
-          <a href="#" class="logo">CryptoLogo</a>
+          <a href="#" class="logo">
+            <div class="logo__image svg-logo"></div>
+          CryptoLogo
+          </a>
           <ul class="menu">
             <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
             <li class="menu__item"><a href="#" class="menu__link">White paper</a></li>
@@ -83,7 +86,8 @@
               <a href="#" class="overview__period">Month</a>
               <a href="#" class="overview__period">Year</a>
             </div>
-            <img src="../images/graph.svg" class="overview__graph" alt="graph" width="510" height="202">
+            <!-- <img src="../images/graph.svg" class="overview__graph" alt="graph" width="510" height="202"> -->
+            <div class="overview__graph svg-graph"></div>
           </div>
         </div>
         <div class="report__content">
@@ -112,11 +116,48 @@
           <a href="#" class="button button--bright">See portfolio history</a>
         </div>
         <div class="portfolio__visual">
-          <img src="../images/diagram.svg" class="portfolio__diagram" alt="diagram" width="222" height="220">
+          <div class="diagram svg-diagram">
+            <span class="diagram__data diagram__data--1st">40%</span>
+            <span class="diagram__data diagram__data--2nd">60%</span>
+          </div>
         </div>
       </div>
     </div>
     <div class="white-paper">
+      <div class="wrap white-paper__wrap">
+        <div class="white-paper__content"></div>
+        <div class="scheme">
+          <div class="scheme__item scheme__item--main scheme__item--fund">
+            <span class="scheme__centered">The t<span class="scheme__thinner">o</span>ken fund</span>
+          </div>
+          <div class="scheme__item scheme__item--secondary scheme__item--investor">
+            Investor
+          </div>
+          <div class="scheme__item scheme__item--secondary scheme__item--deposit">
+            Deposit
+          </div>
+          <div class="scheme__item scheme__item--secondary scheme__item--managers">
+            Fund managers
+          </div>
+          <div class="scheme__item scheme__item--secondary scheme__item--withdrawal">
+            Withdrawal
+          </div>
+          <div class="scheme__item scheme__item--secondary scheme__item--support">
+            Tech support
+          </div>
+          <span class="scheme__subscript">Entry free - 5%</span>
+          <span class="scheme__subscript">Deposit Money</span>
+          <span class="scheme__subscript">95%</span>
+          <span class="scheme__subscript">Withdrawal request</span>
+          <span class="scheme__subscript">4%</span>
+          <span class="scheme__subscript">1%</span>
+          <span class="scheme__subscript">Investment value</span>
+          <span class="scheme__subscript">95%</span>
+          <span class="scheme__subscript">Exit free - 5%</span>
+          <span class="scheme__subscript">4%</span>
+          <span class="scheme__subscript">1%</span>
+        </div>
+      </div>
       
     </div>
     <div class="founder">
@@ -225,7 +266,10 @@
     </div>
     <div class="nav nav--color-filled">
       <div class="wrap nav__wrap">
-        <a href="#" class="logo logo--white">CryptoLogo</a>
+        <a href="#" class="logo logo--white">
+          <div class="logo__image svg-logo-white"></div>
+        CryptoLogo
+        </a>
         <ul class="menu">
           <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
           <li class="menu__item"><a href="#" class="menu__link">White paper</a></li>

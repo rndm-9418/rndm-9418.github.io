@@ -5,8 +5,12 @@
 	background-image: url(../images/corner-01.png), url(../images/corner-02.png);
 	background-repeat: no-repeat;
 	background-position: top left, bottom right;
-	position: relative;
 	padding: 32px 60px 30px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
 
 	&__title{
 		line-height: 18px;

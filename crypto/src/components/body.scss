@@ -6,6 +6,11 @@
 	color: #5F5F5F;
 	/* min-width: 320px; */
 	min-width: 1200px;
+	position: relative;
+
+	&--blur > *:not(.modal){
+		filter: blur(10px);
+	}
 
 	
 }

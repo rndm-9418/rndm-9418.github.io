@@ -1,0 +1,79 @@
+.scheme{
+	width: 680px;
+	height: 485px;
+	position: relative;
+
+	&__item{
+		border-radius: 50%;
+		box-sizing: border-box;
+		position: absolute;
+
+		&--main{
+			background-color: #1A84D2;
+			text-transform: uppercase;
+			height: 173px;
+			width: 173px;
+			color: #fff;
+			font-size: 20px;
+			line-height: 28px;
+			font-weight: 500;
+			display: flex;
+			align-items: center;
+			padding-left: 55px;
+			padding-right: 25px;
+			top: 50%;
+			transform:translateY(-50%);
+			left: 203px;
+		}
+
+		&--secondary{
+			height: 121px;
+			width: 121px;
+			background-color: #fff;
+			line-height: 25px;
+			font-size: 18px;
+			color: #929292;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			padding: 0 10px;
+		}
+
+		&--withdrawal{
+			bottom: 0;
+			left: 229px;
+		}
+
+		&--deposit{
+			top: 0;
+			left: 229px;
+		}
+
+		&--support{
+			top: 50%;
+			transform:translateY(-50%);
+			right: 0;
+		}
+
+		&--investor{
+			top: 191px;
+			left: 0;
+		}
+
+		&--managers{
+			top: 50%;
+			transform:translateY(-50%);
+			right: 133px;
+		}
+	}
+
+	&__thinner{
+		font-weight: 300;
+	}
+
+	&__subscript{
+		line-height: 22px;
+		color: #fff;
+	}
+}
