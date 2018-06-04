@@ -23,10 +23,6 @@
   border-color: #083344;
 }
 
-.button--narrow {
-  padding: 9px 19px 12px;
-}
-
 .button--bright {
   border: 0;
   color: #fff;
@@ -38,6 +34,21 @@
 
 .button--bright:hover {
   background: linear-gradient(107.12deg, #1982cc 4.97%, #19c0cc 65.7%);
+}
+
+.button--narrow {
+  padding: 9px 19px 12px;
+}
+
+.button--wide-for-bright {
+  padding: 9px 50px 14px;
+}
+
+.button--small {
+  font-size: 12px;
+  line-height: 14px;
+  color: #282828;
+  padding: 9px 14px 11px;
 }
 
 .main-title {
@@ -543,4 +554,108 @@
 
 .partners__link:hover {
   box-shadow: 0px 2px 17px rgba(180, 180, 180, 0.7);
+}
+
+.modal {
+  width: 379px;
+  box-sizing: border-box;
+  background-color: #fff;
+  background-image: url(../images/corner-01.png), url(../images/corner-02.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  position: relative;
+  padding: 32px 60px 30px;
+}
+
+.modal__title {
+  line-height: 18px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+.modal__title span {
+  font-weight: 500;
+}
+
+.modal__bind {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.modal__bind:last-child {
+  margin-bottom: 0;
+}
+
+.modal__label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.modal__binds {
+  margin-bottom: 30px;
+}
+
+.modal__input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: 36px;
+  padding: 0 20px;
+}
+
+.modal__input:focus {
+  border-color: #083344;
+  outline: 0;
+}
+
+.modal__link {
+  color: #42A3E9;
+}
+
+.modal__link:hover {
+  color: #083344;
+}
+
+.modal__additory-link {
+  position: absolute;
+  top: 34px;
+  right: 18px;
+  line-height: 14px;
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #5F5F5F;
+}
+
+.modal__additory-link:hover {
+  color: #000;
+}
+
+.modal__next {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+
+.modal__tip {
+  display: flex;
+  justify-content: center;
+  line-height: 16px;
+  font-size: 14px;
+  color: #000;
+}
+
+.modal__question {
+  margin-right: 15px;
 }
