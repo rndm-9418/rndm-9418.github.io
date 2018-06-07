@@ -1,0 +1,32 @@
+.user{
+	display: flex;
+
+	@media(min-width: 960px){
+		padding-right: 50px;
+	}
+
+	&__divider{
+		margin: 0 6px;
+
+		@media(min-width: 768px){
+			margin: 0 12px;
+		}
+	}
+
+	&__link{
+		color: #fff;
+		font-size: 18px;
+		line-height: 23px;
+
+		&--login{
+			font-weight: 700;
+		}
+
+		&:hover{
+			color: #009595;
+		}
+	}
+
+
+
+}

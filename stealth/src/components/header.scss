@@ -1,0 +1,39 @@
+.header{
+	padding-top: 19px;
+	padding-bottom: 30px; /*градиент!*/
+	background-color: rgba(0, 0, 0, 0.35);
+
+	&__wrap{
+		width: 100%;
+		padding: 0 14px;
+		box-sizing: border-box;
+		margin: 0 auto;
+		max-width: 320px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media(min-width: 768px){
+			padding: 0 24px;
+			max-width: none;
+		}
+
+		@media(min-width: 1200px){
+			max-width: 1120px;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+
+	@media(min-width: 768px){
+		padding-bottom: 19px;
+	}
+
+	@media(min-width: 1200px){
+		padding: 12px 0;
+	}
+	
+	
+}

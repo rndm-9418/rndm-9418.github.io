@@ -1,0 +1,27 @@
+.button{
+	display: inline-block;
+	background-color: #009595;
+	font-size: 20px;
+	color: #fff;
+	border: 0;
+	text-decoration: none;
+	text-align: center;
+	padding: 18px 0;
+	
+
+	&:hover{
+		background-color: #006666;
+	}
+
+	/* &--limited{
+		width: 100%;
+		
+	} */
+
+	&--full-width{
+		width: 100%;
+		box-sizing: border-box;
+		max-width: 304px;
+	}
+
+}

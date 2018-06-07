@@ -1,0 +1,143 @@
+.form{
+	width: 292px;
+
+	@media(min-width: 960px){
+		width: 403px;
+		box-sizing: border-box;
+		padding: 26px 50px 48px;
+		border: 1px solid #005656;
+	}
+
+	@media(min-width: 1200px){
+		width: 473px;
+		padding: 60px 50px 60px;
+	}
+
+	&__title{
+		text-transform: uppercase;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 31px;
+		font-weight: 400;
+
+		@media(min-width: 768px){
+			text-align: left;
+		}
+
+		@media(min-width: 960px){
+			text-align: center;
+		}
+
+		@media(min-width: 1200px){
+			margin-bottom: 39px;
+		}
+	}
+
+	&__binds{
+		margin-bottom: 25px;
+
+		&--less-font{
+			.form__label{
+				font-size: 18px;
+			}
+		}
+	}
+
+	&__bind{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 13px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&__label{
+		width: 100%;
+		font-size: 20px;
+		line-height: 29px;
+		margin-bottom: 2px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__input{
+		width: 100%;
+		height: 55px;
+		box-sizing: border-box;
+		background-color: transparent;
+		border: 1px solid #005656;
+		font-size: 20px;
+		line-height: 29px;
+		background-repeat: no-repeat;
+		background-position: 20px center;
+		padding-left: 65px;
+		padding-right: 20px;
+
+		&--user{
+			background-image: url("../images/user.svg");
+		}
+
+		&--lock{
+			background-image: url("../images/lock.svg");
+		}
+
+		&--btc{
+			background-image: url("../images/btc.svg");
+		}
+
+		&--etherium{
+			background-image: url("../images/etherium.svg");
+		}
+	}
+
+	&__tip{
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+
+		&--flex-control{
+			display: block;
+		}
+
+		@media(min-width: 960px){
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		@media(min-width: 1200px){
+			max-width: 304px;
+			margin: 0 auto;
+		}
+	}
+
+	&__link{
+		color: #fff;
+
+		&:hover{
+			color: #009595;
+		}
+	}
+
+	&__additory-link{
+		color: #009595;
+		text-decoration: none;
+
+		&:hover{
+			color: #006666;
+		}
+	}
+
+	&__button{
+		margin-bottom: 12px;
+		text-align: center;
+
+		@media(min-width: 960px){
+			margin-bottom: 9px;
+		}
+	}
+}
