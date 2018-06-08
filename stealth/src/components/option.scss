@@ -1,0 +1,102 @@
+.option{
+	margin-bottom: 22px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	@media(min-width: 768px){
+		margin-bottom: 34px;
+	}
+
+
+
+	&__label{
+		display: flex;
+		margin-bottom: 4px;
+		justify-content: space-between;
+
+		@media(min-width: 960px){
+			margin-bottom: 2px;
+		}
+
+		@media(min-width: 1200px){
+			margin-bottom: 13px;
+		}
+	}
+
+	&__label-text{
+		color: #20b4bb;
+		font-size: 18px;
+		line-height: 20px;
+		max-width: 223px;
+
+		@media(min-width: 768px){
+			font-size: 20px;
+		}
+
+		@media(min-width: 960px){
+			max-width: 260px;
+		}
+
+		@media(min-width: 1200px){
+			max-width: none;
+		}
+	}
+
+	&__icon{
+		width: 25px;
+		height: 25px;
+		background-repeat: no-repeat;
+		flex-shrink: 0;
+
+		@media(min-width: 960px){
+			position: relative;
+			top: -2px;
+		}
+	}
+
+	&__address{
+		border: 1px solid #20b4bb;
+		color: #fff;
+		font-weight: 500;
+		background-repeat: no-repeat;
+		background-position: 261px center;
+		padding: 15px 16px 15px 16px;
+
+		@media(min-width: 768px){
+			font-size: 20px;
+			padding: 18px 23px 22px 23px;
+			background-position: 313px center;
+		}
+
+		@media(min-width: 960px){
+			padding: 18px 18px 23px 18px;
+			background-position: 343px center;
+		}
+
+		@media(min-width: 1200px){
+			padding: 23px 18px 23px 12px;
+			background-position: 520px center;
+		}
+
+		&--etherium{
+			background-image: url("../images/etherium-blue.svg");
+
+			@media(min-width: 768px){
+				background-image: url("../images/etherium-blue-bigger.svg");
+			}
+		}
+
+		&--btc{
+			background-image: url("../images/btc-blue.svg");
+
+			@media(min-width: 768px){
+				background-image: url("../images/btc-blue-bigger.svg");
+			}
+		}
+
+
+
+	}
+}

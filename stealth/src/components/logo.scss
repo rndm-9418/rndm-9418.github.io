@@ -22,5 +22,12 @@
 			width: 52px;
 			height: 36px;
 		}
+
+	}
+
+	&--offset{
+		@media(min-width: 960px){
+			margin-right: 137px;
+		}
 	}
 }

@@ -8,22 +8,69 @@
     <link rel="stylesheet" href="../css/common.css">
   </head>
   <body class="body">
-    <div class="header">
-      <div class="wrap header__wrap">
-        <a href="#" class="logo">
+    <div class="header header--acc">
+      <div class="header__wrap header__wrap--acc">
+        <a href="#" class="logo logo--offset">
           <span class="logo__text svg-logo-text"></span>
           <span class="logo__image svg-logo-image"></span>
         </a>
         <div class="menu">
-          <div class="menu__title">Account</div>
-          <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Account</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Settings</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Log Out</a></li>
+          <a href="#" class="menu__title js-dropdown-toggle">Account</a>
+          <ul class="menu__list js-dropdown-list">
+            <li class="menu__item"><a href="#" class="menu__link menu__link--account">Account</a></li>
+            <li class="menu__item"><a href="#" class="menu__link menu__link--settings">Settings</a></li>
+            <li class="menu__item"><a href="#" class="menu__link menu__link--logout">Log Out</a></li>
           </ul>
         </div>
         <div class="balance">
-          Your balance: 147,12548 STELZ
+          <div class="balance__inner">
+            <a href="#" class="balance__link">Your balance:</a> 
+            <span class="balance__value">
+              <span class="balance__number">147,12548 STELZ</span>
+              <span class="balance__icon svg-stelz-coin"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="buy">
+      <div class="buy__wrap">
+        <h2 class="buy__title">Buy stelz</h2>
+        <div class="buy__content">
+          <div class="buy__options">
+            <div class="option">
+              <div class="option__label">
+                <span class="option__label-text">To buy in Etherium just sent ammount to:</span>
+                <span class="option__icon svg-info-icon-options"></span>
+              </div>
+              <div class="option__address option__address--etherium">
+                f8977fvxvxvdx8g88gxgvbxfx8v
+              </div>
+            </div>
+            <div class="option">
+              <div class="option__label">
+                <span class="option__label-text">To buy in Bitcoin just sent ammount to:</span>
+                <span class="option__icon svg-info-icon-options"></span>
+              </div>
+              <div class="option__address option__address--btc">
+                f8977fvxvxvdx8g88gxgvbxfx8v
+              </div>
+            </div>
+          </div>
+          <div class="rate">
+            <div class="rate__items">
+              <div class="rate__item">
+                <div class="rate__fact">1  STELZ = 0.2 ETH</div>
+                <div class="rate__explain">equal to 100 USD</div>
+              </div>
+              <div class="rate__item">
+                <div class="rate__fact">2 ETH/0.2 BTC (1000 USD)</div>
+                <div class="rate__explain">mininal depoit ammount</div>
+              </div>
+            </div>
+            <span class="rate__icon svg-info-icon-rate"></span>
+            <span class="rate__decoration"></span>
+          </div>
         </div>
       </div>
     </div>

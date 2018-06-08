@@ -10,6 +10,16 @@
 
 @font-face {
 	font-family: "EurofontC";
+	src: url("../fonts/EurofontC-medium.woff2")
+		format("woff2"),
+		url("../fonts/EurofontC-medium.woff")
+		format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EurofontC";
 	src: url("../fonts/EurofontC-bold.woff2")
 		format("woff2"),
 		url("../fonts/EurofontC-bold.woff")

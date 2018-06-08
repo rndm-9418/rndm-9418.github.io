@@ -1,0 +1,172 @@
+.rate{
+	padding-top: 17px;
+	padding-bottom: 13px;
+	position: relative;
+	box-sizing: border-box;
+
+	&:before{
+		content: "";
+		position: absolute;
+		width: 86%;
+		height: 2px;
+		background-color: #583ac1;
+		top: 8px;
+		right: 0;
+	}
+
+	&:after{
+		content: "";
+		position: absolute;
+		width: 91%;
+		height: 2px;
+		background-color: #583ac1;
+		bottom: 6px;
+		left: 0;
+	}
+
+	@media(min-width: 768px){
+		order: 1;
+		width: 290px;
+		flex-shrink: 0;
+	}
+
+	@media(min-width: 960px){
+		border: 2px solid #583ac1;
+		width: 540px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-top: 36px;
+		padding-bottom: 40px;
+
+
+		&:before{
+			display: none;
+		}
+
+		&:after{
+			display: none;
+		}
+	}
+
+	@media(min-width: 1200px){
+		width: 570px;
+	}
+
+
+
+
+
+	&__icon{
+		width: 17px;
+		height: 17px;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		@media(min-width: 960px){
+			width: 28px;
+			height: 28px;
+			left: 20px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		@media(min-width: 1200px){
+			left: 23px;
+		}
+	}
+
+	&__decoration{
+		height: 13px;
+		width: 13px;
+		border-radius: 50%;
+		background-color: #28d7cb;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+
+		@media(min-width: 960px){
+			right: 35px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		@media(min-width: 1200px){
+			right: 42px;
+		}
+	}
+
+
+	&__item{
+		padding-top: 19px;
+		padding-bottom: 14px;
+		border-bottom: 2px solid #20b4bb;
+
+		&:first-child{
+			padding-top: 13px;
+		}
+
+		&:last-child{
+			border-bottom: 0;
+		}
+
+		@media(min-width: 768px){
+			&:first-child{
+				padding-top: 19px;
+			}
+
+			&:last-child{
+				padding-bottom: 36px;
+			}
+
+			padding-bottom: 25px;
+		}
+
+		@media(min-width: 960px){
+			&:first-child{
+				padding-top: 0;
+			}
+
+			&:last-child{
+				padding-bottom: 0;
+			}
+
+			padding-left: 17px;
+			padding-top: 21px;
+			border-color: #583ac1;
+		}
+
+		@media(min-width: 1200px){
+			padding-left: 37px;
+		}
+
+	}
+
+	&__fact{
+		color: #ebebeb;
+		font-size: 20px;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+
+		@media(min-width: 768px){
+			font-size: 22px;
+			margin-bottom: 14px;
+		}
+
+		@media(min-width: 960px){
+			font-size: 27px;
+			margin-bottom: 8px;
+		}
+	}
+
+	&__explain{
+		color: #ebebeb;
+
+		@media(min-width: 768px){
+			font-size: 20px;
+		}
+	}
+
+
+}

@@ -29,16 +29,19 @@
 
 		@media(min-width: 768px){
 			padding: 0 24px;
-			max-width: none;
+			max-width: 768px;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: flex-start;
 		}
 
+		@media(min-width: 960px){
+			max-width: 960px;
+		}
+
 		@media(min-width: 1200px){
-			max-width: 1120px;
-			padding-left: 0;
-			padding-right: 0;
+			max-width: 1200px;
+			padding: 0 40px;
 		}
 	}
 	
