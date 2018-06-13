@@ -21,13 +21,11 @@ function popup(){
 			$(this).find(popup).hide();
 			$(this).removeClass("js-z");
 		});
-
+		
 		$(this).toggleClass("js-z");
 
 		$(this).find(popup).toggle();
 	})
-
-
 }
 
 popup();

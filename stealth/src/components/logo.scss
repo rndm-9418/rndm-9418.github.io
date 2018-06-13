@@ -1,6 +1,44 @@
 .logo{
 	display: flex;
 
+	&--offset{
+		@media(min-width: 960px){
+			margin-right: 137px;
+		}
+	}
+
+	&--offset-bottom{
+		margin-bottom: 19px;
+	}
+
+	&--single-line{
+		align-items: center;
+		justify-content: center;
+
+		.logo__image{
+			width: 37px;
+			height: 26px;
+			background-repeat: no-repeat;
+			margin-left: 7px;
+			margin-right: 7px;
+		}
+	}
+
+	&__line{
+
+		&--stealth{
+			width: 83px;
+			height: 11px;
+			background-repeat: no-repeat;
+		}
+
+		&--project{
+			width: 84px;
+			height: 11px;
+			background-repeat: no-repeat;
+		}
+	}
+
 	&__text{
 		width: 75px;
 		height: 24px;
@@ -25,9 +63,5 @@
 
 	}
 
-	&--offset{
-		@media(min-width: 960px){
-			margin-right: 137px;
-		}
-	}
+	
 }
