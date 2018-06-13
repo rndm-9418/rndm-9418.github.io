@@ -10,6 +10,10 @@
 		margin-bottom: 4px;
 	}
 
+	@media(min-width: 1200px){
+		margin-bottom: 10px;
+	}
+
 	&__title{
 		color: #d8f5f5;
 		width: 100%;
@@ -50,9 +54,7 @@
 			margin-right: 26px;
 		}
 
-		@media(min-width: 1200px){
-			margin-bottom: 10px;
-		}
+		
 	}
 
 	&__icon{

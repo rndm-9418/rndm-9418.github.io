@@ -1,3 +1,11 @@
 .js-dropdown-toggle-unfolded{
 	background-image: url("../images/arrow-up.svg");
 }
+
+.js-visible{
+	display: block;
+
+	@media(min-width: 768px){
+		display: flex;
+	}
+}

@@ -2324,6 +2324,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .ref-link {
+    margin-bottom: 10px;
+  }
+}
+
 .ref-link__title {
   color: #d8f5f5;
   width: 100%;
@@ -2373,12 +2379,6 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .ref-link__link {
-    margin-bottom: 10px;
-  }
-}
-
 .ref-link__icon {
   width: 31px;
   height: 31px;
@@ -2395,4 +2395,14 @@
 
 .js-dropdown-toggle-unfolded {
   background-image: url("../images/arrow-up.svg");
+}
+
+.js-visible {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .js-visible {
+    display: flex;
+  }
 }
