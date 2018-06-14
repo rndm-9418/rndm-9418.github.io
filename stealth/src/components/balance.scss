@@ -44,6 +44,10 @@
 	&__link{
 		color: #fff;
 
+		&:hover{
+			color: #583ac1;
+		}
+
 		@media(min-width: 768px){
 			font-size: 20px;
 			margin-bottom: 2px;

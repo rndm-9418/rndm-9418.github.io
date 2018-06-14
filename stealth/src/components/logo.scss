@@ -3,6 +3,10 @@
 
 	&--offset{
 		@media(min-width: 960px){
+			margin-right: 73px;
+		}
+
+		@media(min-width: 1200px){
 			margin-right: 137px;
 		}
 	}

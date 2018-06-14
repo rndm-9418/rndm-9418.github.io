@@ -274,6 +274,14 @@
 		}
 	}
 
+	&__link{
+		color: #fff;
+
+		&:hover{
+			color: #d8f5f5;
+		}
+	}
+
 	&__icon{
 		background-repeat: no-repeat;
 		position: absolute;

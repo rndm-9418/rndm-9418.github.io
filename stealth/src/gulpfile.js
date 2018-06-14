@@ -18,7 +18,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task("copy", function(){
-  return gulp.src(["html/**/*.*", "external/**/*.*"], {base: "."})
+  return gulp.src(["html/**/*.*", "images/**/*.*", "vendor/**/*.*", "js/**/*.*"], {base: "."})
   .pipe(gulp.dest("../build/"));
 })
 
