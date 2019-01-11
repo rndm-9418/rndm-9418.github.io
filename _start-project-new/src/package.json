@@ -1,0 +1,27 @@
+{
+  "name": "twobytes",
+  "version": "1.0.0",
+  "description": "markup project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "gulp": "*",
+    "gulp-copy": "*",
+    "gulp-csscomb": "*",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-svgstore": "*",
+    "del": "*",
+    "imagemin-pngquant": "*",
+    "imagemin-jpeg-recompress": "*"
+  }
+}
